@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="button.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="button.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="engine.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="908" topLine="45" />
+	</File>
+	<File name="engine.h" open="1" top="1" tabpos="2">
+		<Cursor position="919" topLine="29" />
+	</File>
+	<File name="event.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="map.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="map.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="tile.h" open="0" top="0" tabpos="3">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="util.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="util.h" open="0" top="0" tabpos="2">
+		<Cursor position="611" topLine="8" />
+	</File>
+</CodeBlocks_layout_file>

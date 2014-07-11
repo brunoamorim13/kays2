@@ -1,0 +1,44 @@
+416 320 4 32 32 90 Velho_Jenkins 10
+initialPage:
+Tarrrde!!
+initialPage:
+Ta sabendo que tem um bixo 
+esquisito naquele prédio?
+initialPage:
+Dizem que ele produz slimes.
+Outros dizem que há um ciborg escondido no topo do prédio.
+End:
+
+1152 480 4 32 32 3 Flanders 10
+initialPage:
+Os slimes dominaram o prédio!
+initialPage:
+Nossa unica esperança de tomarmos a cidade de volta é derrotando-os.
+Pessoas disseram ter visto um slime 2x mais que o normal capaz de
+reproduzir slimes em intervalos de tempo.
+initialPage:
+Você é nossa única esperança...
+Mate o pai dos slimes e ponha um fim nesses monstros!
+progressPage:
+Ainda não matou aquele bixo?
+progressPage:
+Não desista! Você é nossa ultima esperança.
+endPage:
+Finalmente estamos conseguindo lutar contra esses monstros.
+endPage:
+Não podemos parar agora! Ponha um fim nestes invasores de uma 
+vez por todas!
+End:
+
+224 544 4 32 32 90 Tomas 10
+initialPage:
+Os prédios desabaram terrívelmente por este lados.
+Você deve dar a volta e usar os esgotos caso queira chegar 
+ao outro lado.
+initialPage:
+Dizem que os invasores tomaram posse daquele prédio a 
+direita e estão utilizando-o como base de operações.
+initialPage:
+Nossa única esperança de retornarmos as nossas antigas vidas 
+é expulsá-los de lá.
+End:

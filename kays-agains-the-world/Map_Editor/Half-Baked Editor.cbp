@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Half-Baked Editor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Headers/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Half-Baked Editor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../library/SDL-1.2.14/include" />
+					<Add directory="../library/SDL_ttf-2.0.10/include" />
+					<Add directory="../library/SDL_mixer-1.2.11/include" />
+					<Add directory="../library/SDL_image-1.2.10/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-lSDL_image" />
+					<Add option="-lSDL_ttf" />
+					<Add option="-lSDL_mixer" />
+					<Add directory="../library/SDL-1.2.14/lib" />
+					<Add directory="../library/SDL_ttf-2.0.10/lib" />
+					<Add directory="../library/SDL_mixer-1.2.11/lib" />
+					<Add directory="../library/SDL_image-1.2.10/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Half-Baked Editor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../library/SDL-1.2.14/include" />
+					<Add directory="../library/SDL_ttf-2.0.10/include" />
+					<Add directory="../library/SDL_mixer-1.2.11/include" />
+					<Add directory="../library/SDL_image-1.2.10/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lmingw32" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-lSDL_image" />
+					<Add option="-lSDL_ttf" />
+					<Add option="-lSDL_mixer" />
+					<Add directory="../library/SDL-1.2.14/lib" />
+					<Add directory="../library/SDL_ttf-2.0.10/lib" />
+					<Add directory="../library/SDL_mixer-1.2.11/lib" />
+					<Add directory="../library/SDL_image-1.2.10/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../library/SDL-1.2.14/include" />
+			<Add directory="../library/SDL_ttf-2.0.10/include" />
+			<Add directory="../library/SDL_mixer-1.2.11/include" />
+			<Add directory="../library/SDL_image-1.2.10/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDLmain" />
+			<Add option="-lSDL" />
+			<Add option="-lSDL_image" />
+			<Add option="-lSDL_mixer" />
+			<Add option="-lSDL_ttf" />
+			<Add option="-lSDL_gfx" />
+			<Add directory="../library/SDL-1.2.14/lib" />
+			<Add directory="../library/SDL_ttf-2.0.10/lib" />
+			<Add directory="../library/SDL_mixer-1.2.11/lib" />
+			<Add directory="../library/SDL_image-1.2.10/lib" />
+		</Linker>
+		<Unit filename="button.cpp" />
+		<Unit filename="button.h" />
+		<Unit filename="define.h" />
+		<Unit filename="engine.cpp" />
+		<Unit filename="engine.h" />
+		<Unit filename="event.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.h" />
+		<Unit filename="tile.cpp" />
+		<Unit filename="tile.h" />
+		<Unit filename="util.cpp" />
+		<Unit filename="util.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

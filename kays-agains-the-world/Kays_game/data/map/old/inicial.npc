@@ -1,0 +1,22 @@
+352 576 4 32 32 0 Carinha_Estranho 35
+initialPage:
+Voce esta vendo aquelas 
+gosmas de lama?
+Elas sao extremamente 
+perigosas.
+initialPage:
+Nao as subestime nunca!!
+initialPage:
+Se vc for capaz,
+mate 5 Slimes e depois
+me conte como voce fez!
+progressPage:
+Continue matando todos eles!!
+endPage:
+Muito bem! me sinto mais seguro agora!
+End:
+
+320 572 7 32 36 9 -1 0
+initialPage:
+Cuidado! Cidade sobre ataque.
+End:

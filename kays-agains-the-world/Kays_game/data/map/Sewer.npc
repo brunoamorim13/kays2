@@ -1,0 +1,25 @@
+160 96 4 32 32 0 Muk 10
+initialPage:
+Ei!!! Você!!!
+initialPage:
+O que você está fazendo aqui?
+initialPage:
+Este é um lugar muito perigoso para se perder.
+Você não vai querer cair num buraco com aqueles monstros.
+initialPage:
+Mostre-me que você consegue se virar sozinho e mata 5 destes monstros.
+progressPage:
+Há! Sabia que você não conseguiria. Eu sou o único que consegue se virar
+nestes esgotos.
+progressPage:
+Ainda estou esperando para ver se você consegue...
+endPage:
+Eu estava enganado... '-'
+Parece que você consegue dar o seu jeito.
+End:
+
+800 992 4 32 32 90 Expert 10
+initialPage:
+Malditos slimes!!! comeram toda a 
+tubulação!
+End:

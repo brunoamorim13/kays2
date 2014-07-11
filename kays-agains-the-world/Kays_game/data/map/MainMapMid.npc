@@ -1,0 +1,30 @@
+800 544 4 32 32 2 Ancião_da_vila 25
+initialPage:
+A vila quase foi tomada por estes invasores.
+Precisamos descobrir algum meio de lutar contra eles.
+initialPage:
+Aparentemente as energias deixadas pelos seus corpos 
+podem ser utilizadas como armas.
+initialPage:
+Tente Obter 1 energia ao matar um monstro para ajudar 
+a cidade a lutar contra estes invasores.
+progressPage:
+Ainda não matou? aperte X para usar a sua arma normal 
+e atirar nos monstros.
+endPage:
+Ohh... isto é muito interessante.
+Agora você pode usar está energia para tiros especiais.
+endPage:
+Aperte A,S,D,F para utilizá-los.
+End:
+
+250 416 4 32 32 99 Feud 15
+initialPage:
+Aqueles bixos são muito fortes!!
+Estamos todos perdido <o>.
+initialPage:
+Não consegui fazer o que o 
+ancião me pediu.
+initialPage:
+Duvido que você consiga.
+End:

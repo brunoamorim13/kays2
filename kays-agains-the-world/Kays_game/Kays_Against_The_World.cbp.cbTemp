@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Kays Against The World" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Game Objects/;Game Objects/Item/;Game Objects/Inimigos/;Game Objects/Effects/;Game Objects/Game States/;Engine/;Image/;Mapa/;Temps - Sem refatorar/;Gameplay/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Kays" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Kays" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDLmain" />
+			<Add option="-lSDL" />
+			<Add option="-lSDL_image" />
+			<Add option="-lSDL_mixer" />
+			<Add option="-lSDL_ttf" />
+			<Add option="-lSDL_gfx" />
+		</Linker>
+		<Unit filename="config.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="include/GameEvent.h" />
+		<Unit filename="include/animation.h">
+			<Option virtualFolder="Image/" />
+		</Unit>
+		<Unit filename="include/button.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/camera.h">
+			<Option virtualFolder="Mapa/" />
+		</Unit>
+		<Unit filename="include/defines.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/dialoguewindow.h">
+			<Option virtualFolder="Game Objects/Effects/" />
+		</Unit>
+		<Unit filename="include/effects.h">
+			<Option virtualFolder="Game Objects/Effects/" />
+		</Unit>
+		<Unit filename="include/entidade.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="include/gameObject.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="include/gameState.h">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="include/gfx.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/inimigo.h">
+			<Option virtualFolder="Game Objects/Inimigos/" />
+		</Unit>
+		<Unit filename="include/inputmanager.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/interfaceMenu.h">
+			<Option virtualFolder="Gameplay/" />
+		</Unit>
+		<Unit filename="include/interfaces.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/introState.h">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="include/itemobj.h">
+			<Option virtualFolder="Game Objects/Item/" />
+		</Unit>
+		<Unit filename="include/map.h">
+			<Option virtualFolder="Mapa/" />
+		</Unit>
+		<Unit filename="include/menuState.h">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="include/moveimage.h">
+			<Option virtualFolder="Temps - Sem refatorar/" />
+		</Unit>
+		<Unit filename="include/npc.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="include/personagem.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="include/player.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="include/presentationState.h">
+			<Option virtualFolder="Temps - Sem refatorar/" />
+		</Unit>
+		<Unit filename="include/quest.h">
+			<Option virtualFolder="Gameplay/" />
+		</Unit>
+		<Unit filename="include/save.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/sdlbase.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/sound.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/sprite.h">
+			<Option virtualFolder="Image/" />
+		</Unit>
+		<Unit filename="include/spriteManager.h">
+			<Option virtualFolder="Image/" />
+		</Unit>
+		<Unit filename="include/state.h">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="include/statemanager.h">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="include/teleporte.h">
+			<Option virtualFolder="Game Objects/Effects/" />
+		</Unit>
+		<Unit filename="include/text.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/tile.h">
+			<Option virtualFolder="Mapa/" />
+		</Unit>
+		<Unit filename="include/timer.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/tiro.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="include/vetor.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="include/winloseState.h">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="src/GameEvent.cpp" />
+		<Unit filename="src/animation.cpp">
+			<Option virtualFolder="Image/" />
+		</Unit>
+		<Unit filename="src/button.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/camera.cpp">
+			<Option virtualFolder="Mapa/" />
+		</Unit>
+		<Unit filename="src/dialoguewindow.cpp">
+			<Option virtualFolder="Game Objects/Effects/" />
+		</Unit>
+		<Unit filename="src/effects.cpp">
+			<Option virtualFolder="Game Objects/Effects/" />
+		</Unit>
+		<Unit filename="src/entidade.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="src/gameObject.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="src/gameState.cpp">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="src/gfx.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/inimigo.cpp">
+			<Option virtualFolder="Game Objects/Inimigos/" />
+		</Unit>
+		<Unit filename="src/inimigoBoss.cpp">
+			<Option virtualFolder="Game Objects/Inimigos/" />
+		</Unit>
+		<Unit filename="src/inimigoLastBoss.cpp">
+			<Option virtualFolder="Game Objects/Inimigos/" />
+		</Unit>
+		<Unit filename="src/inputmanager.cpp">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="src/interfaceMenu.cpp">
+			<Option virtualFolder="Gameplay/" />
+		</Unit>
+		<Unit filename="src/interfaces.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/introState.cpp">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="src/itemobj.cpp">
+			<Option virtualFolder="Game Objects/Item/" />
+		</Unit>
+		<Unit filename="src/map.cpp">
+			<Option virtualFolder="Mapa/" />
+		</Unit>
+		<Unit filename="src/menuState.cpp">
+			<Option virtualFolder="Gameplay/" />
+		</Unit>
+		<Unit filename="src/moveimage.cpp">
+			<Option virtualFolder="Temps - Sem refatorar/" />
+		</Unit>
+		<Unit filename="src/npc.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="src/personagem.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="src/player.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="src/presentationState.cpp">
+			<Option virtualFolder="Temps - Sem refatorar/" />
+		</Unit>
+		<Unit filename="src/quest.cpp">
+			<Option virtualFolder="Gameplay/" />
+		</Unit>
+		<Unit filename="src/save.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/sdlbase.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/sound.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/sprite.cpp">
+			<Option virtualFolder="Image/" />
+		</Unit>
+		<Unit filename="src/spriteManager.cpp">
+			<Option virtualFolder="Image/" />
+		</Unit>
+		<Unit filename="src/statemanager.cpp">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Unit filename="src/teleporte.cpp">
+			<Option virtualFolder="Game Objects/Effects/" />
+		</Unit>
+		<Unit filename="src/text.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/tile.cpp">
+			<Option virtualFolder="Mapa/" />
+		</Unit>
+		<Unit filename="src/timer.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/tiro.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="src/vetor.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/winloseState.cpp">
+			<Option virtualFolder="Game Objects/Game States/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

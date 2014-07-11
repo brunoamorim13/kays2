@@ -1,0 +1,4 @@
+data/map/city.map 0,64,16,64,2816,416
+data/map/boss.map 1904,256,16,96,200,200
+Musica:
+3

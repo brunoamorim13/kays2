@@ -1,0 +1,21 @@
+COMANDOS:
+
+
+-Rola do mouse, altera o BLOCK_TYPE, se é passável ou não, creio q 1 é passável e 2 não é
+
+-TAB, altera para visualizar os BLOCK_TYPE
+
+-Btn direito, Copia o tile
+
+-Somente a camada 0 influencia o BLOCK_TYPE
+
+-Para fazer rampas, utilize blocks com SLOPE
+
+
+TILESETS:
+
+-Para mudar o tileset, basta mudar o arquivo "data/basic_tileset_32.jpg"
+
+MAPAS:
+
+-O mapa é gerado em "data/maps/output_map.MAP", ele é substituido ao salvar.
